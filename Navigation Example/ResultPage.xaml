@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation_Example.ResultPage"
+             Title="Results">
+    <VerticalStackLayout>
+        <Label 
+            x:Name="BMILabel"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Next" x:Name="ResultNextButton" FontSize="Medium"
+            Padding="20"
+            FontAttributes="Bold"
+            CornerRadius="15" Clicked="ResultNextBtn_Clicked"/>
+        <Button Text="Home" x:Name="ResultHomeButton" FontSize="Medium"
+           Padding="20"
+           FontAttributes="Bold"
+           CornerRadius="15" Clicked="ResultHomeBtn_Clicked"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>
